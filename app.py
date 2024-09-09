@@ -250,7 +250,7 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-    img_path = "D:\PIAIC\lang\lang\chat_with_vid\yt.png"  # Ensure this path points to a valid image file
+    img_path = ".\yt.png"  # Ensure this path points to a valid image file
     img_base64 = img_to_base64(img_path)
     if img_base64:
         st.sidebar.markdown("""
